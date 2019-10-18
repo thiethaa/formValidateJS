@@ -61,8 +61,10 @@ function validate(){
         password_error.textContent = 'Password must at least 8 character';
         password.focus();
         return false;
-    }
+    }else
+    alert ("The Form has been submitted");
 }
+
 //even handler function
 function nameValidate() {
     if (username.value != '') {
