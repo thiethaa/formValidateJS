@@ -1,0 +1,35 @@
+body{
+  background-image: url(https://www.psdgraphics.com/wp-content/uploads/2019/02/abstract-spring-background.jpg);
+  background-size: cover;
+}
+.logo{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(8, 8, 94);
+}
+form{
+    width: 30%;
+    margin: 50px auto;
+    background: transparent;
+   
+}
+.textinput {
+    height: 20px;
+    margin: 5px;
+    border: 1px solid #6B7363;
+    font-size: 1.2em;
+    padding: 5px;
+    width: 90%;
+  }
+  .textinput:focus {
+    outline: none;
+  }
+  .btn {
+    width: 95%;
+    border: none;
+    margin-top: 5px;
+    color: white;
+    background-color: #3b4a68;
+    border-radius: 5px;
+    padding: 12px;
+  }
