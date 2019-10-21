@@ -62,7 +62,7 @@ function validate(){
         password.focus();
         return false;
     }else
-    alert ("The Form has been submitted");
+    alert ("The Form has been submitted!!!");
 }
 
 //even handler function
